@@ -5,7 +5,7 @@ html,
 html * {
     padding: 0;
     margin: 0;
-    box-sizig: border-box;
+    box-sizing: border-box;
     font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif";
     
     
@@ -36,7 +36,7 @@ footer {
 body{
     margin-left: auto;
     margin-right: auto;
-    background-image: url("images/backgroud 1.jpg");
+    background-image: url("images-web/backgroud 1.jpg");
     background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
@@ -60,7 +60,7 @@ body{
 }
 .style-nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #D1D1D1;
     text-align: center;
     display: block;
     text-transform: uppercase;
@@ -290,7 +290,7 @@ p {
     }
     h1 {
         font-size: 60px;
-        margin-size: 90px;
+        margin: 90px;
     }
     .col-md-one-half {
         width: 100%;
